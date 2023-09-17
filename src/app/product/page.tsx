@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './product.module.scss'
+import DataTable from '@/components/table/table'
 
 function Content() {
     return (
@@ -14,6 +15,7 @@ function Content() {
             <div className={styles.wrapFilter}>
                 <p>Filter</p>
             </div>
+            <DataTable />
         </div>
     )
 }
